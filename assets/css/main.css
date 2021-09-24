@@ -8,6 +8,9 @@
 }
 
 /* Global */
+body {
+  
+}
 li {
   list-style: none;
 }
@@ -22,6 +25,14 @@ a {
 }
 
 /* Specifics */
+nav > a {
+  position: absolute;
+  left: 1.3rem;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--first-color);
+}
 .nav__list {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -41,7 +52,7 @@ a {
 .nav__close {
   position: absolute;
   right: 1.3rem;
-  top: 0.5rem;
+  top: 1.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
@@ -50,7 +61,7 @@ a {
 .nav__show {
   position: absolute;
   right: 1.3rem;
-  top: 0.5rem;
+  top: 1.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
