@@ -15,3 +15,32 @@ li {
 a {
   text-decoration: none;
 }
+
+.grid {
+  display: grid;
+  gap: 1.5;
+}
+
+/* Specifics */
+.nav__list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 90%;
+  margin: 50px auto;
+}
+
+/* Modal */
+.nav_modal {
+  background: green;
+  height: 100vh;
+  padding: 2em;
+}
+
+.nav__close {
+  position: absolute;
+  right: 1.3rem;
+  top: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--first-color);
+}

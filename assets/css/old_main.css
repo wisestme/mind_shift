@@ -141,7 +141,7 @@ img {
 }
 
 /* Navigation */
-.nav_modal {
+.nav {
   max-width: 968px;
   height: 100vh;
   display: flex;
