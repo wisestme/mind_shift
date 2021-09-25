@@ -103,6 +103,65 @@ nav > a {
   top: -100px;
 }
 
+/* Phone Modal */
+.phone_modal_icon {
+	position: fixed;
+	right: 1em;
+	bottom: 3em;
+}
+.phone_quicklinks {
+	width: 45px;
+	height: 45px;
+	background: #00BFA5;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 4px #00BFA5;
+	color: #161616;
+}
+
+.phone_modal {
+	width: 70%;
+	height: 200px;
+	position: fixed;
+	bottom: 0;
+	right: -400px;
+	background: #161616;
+	border: 2px solid #00BFA5;
+	padding: 1em;
+	border-radius: 5px;
+	color: #fff;
+	fill: #fff;
+	max-width: 400px;
+	transition: 0.5s ease;
+}
+
+.channel {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.contact_channels {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 140px
+}
+
+.close_modal svg {
+	width: 20px;
+	height: 20px;
+}
+
+.channel svg {
+	margin-right: 6px;
+}
+
+.phone_quicklinks svg {
+	width: 25x;
+	height: 25px;
+}
 
 /* Media Queries */
 @media screen and (max-width:800px) {
