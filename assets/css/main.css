@@ -11,6 +11,10 @@
 body {
   
 }
+
+main {
+  margin: 5rem 0;
+}
 li {
   list-style: none;
 }
