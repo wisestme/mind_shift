@@ -48,6 +48,12 @@ nav > a {
   margin: 50px auto;
 }
 
+.large_nav {
+  position: relative;
+  right: 2rem;
+  float: right;
+}
+
 /* NAVIGATION Modal */
 .nav_modal {
   background: green;
