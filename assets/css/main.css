@@ -47,6 +47,7 @@ nav > a {
   padding: 2em;
   position: absolute;
   top: -200vh;
+  transition: 1s;
 }
 
 .nav__close {
