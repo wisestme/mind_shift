@@ -27,10 +27,16 @@ if(navOpen) {
 let phoneModal = document.querySelector('.phone_modal');
 let closePhoneModal = document.querySelector('.phone_close_modal');
 
-phoneModalIcon.addEventListener('click', () => {
-	phoneModal.style.right = 0;
-})
+// Validate if constant exists
+if(phoneModalIcon) {
+  phoneModalIcon.addEventListener('click', () => {
+    phoneModal.style.right = 0;
+  })
+}
 
-closePhoneModal.addEventListener('click', () => {
-	phoneModal.style.right = '-400px';
-})
+// Validate if constant exists
+if(closePhoneModal) {
+  closePhoneModal.addEventListener('click', () => {
+    phoneModal.style.right = '-400px';
+  })
+}
