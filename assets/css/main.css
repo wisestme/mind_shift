@@ -99,6 +99,19 @@ nav > a {
   top: -100px;
 }
 
+/* Footer */
+footer {
+  padding: 1em;
+}
+
+footer section {
+  margin-bottom: 5rem;
+}
+
+footer section > div {
+  margin-bottom: 2rem;
+}
+
 /* Phone Modal */
 .phone_modal_icon {
 	position: fixed;
