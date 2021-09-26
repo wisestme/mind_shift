@@ -42,6 +42,12 @@ h2 {
   display: none;
 }
 
+input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
 /* Specifics */
 nav > a {
   position: absolute;
