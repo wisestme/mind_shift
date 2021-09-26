@@ -38,6 +38,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.screen_reader {
+  display: none;
+}
+
 /* Specifics */
 nav > a {
   position: absolute;
@@ -73,6 +77,12 @@ nav > a {
 
 footer li {
   margin-bottom: 0.8rem;
+}
+
+footer form {
+  flex-direction: column;
+  width: 80%;
+  
 }
 
 /* NAVIGATION Modal */
