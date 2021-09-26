@@ -20,3 +20,17 @@ if(navOpen) {
       navOpen.classList.remove('hide-icon');
     })
   }
+
+
+  // Phone modal control
+  let phoneModalIcon = document.querySelector('.phone_quicklinks');
+let phoneModal = document.querySelector('.phone_modal');
+let closePhoneModal = document.querySelector('.phone_close_modal');
+
+phoneModalIcon.addEventListener('click', () => {
+	phoneModal.style.right = 0;
+})
+
+closePhoneModal.addEventListener('click', () => {
+	phoneModal.style.right = '-400px';
+})
