@@ -8,10 +8,6 @@
 }
 
 /* Global */
-body {
-  
-}
-
 header {
   margin: 0 0 5rem 0;
   height: 20vh;
@@ -121,7 +117,7 @@ nav > a {
 }
 
 .phone_modal {
-	width: 70%;
+	width: 60%;
 	height: 200px;
 	position: fixed;
 	bottom: 0;
@@ -156,6 +152,8 @@ nav > a {
 
 .channel svg {
 	margin-right: 6px;
+  width: 20x;
+	height: 20px;
 }
 
 .phone_quicklinks svg {

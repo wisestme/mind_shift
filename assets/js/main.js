@@ -23,7 +23,7 @@ if(navOpen) {
 
 
   // Phone modal control
-  let phoneModalIcon = document.querySelector('.phone_quicklinks');
+let phoneModalIcon = document.querySelector('.phone_quicklinks');
 let phoneModal = document.querySelector('.phone_modal');
 let closePhoneModal = document.querySelector('.phone_close_modal');
 
