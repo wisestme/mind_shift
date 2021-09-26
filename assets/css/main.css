@@ -104,7 +104,7 @@ footer {
   padding: 1em;
 }
 
-footer section {
+footer section:not(:last-child) {
   margin-bottom: 5rem;
 }
 
