@@ -34,6 +34,10 @@ a {
   display: flex;
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
+
 /* Specifics */
 nav > a {
   position: absolute;
@@ -60,6 +64,15 @@ nav > a {
 
 .large_nav li {
   margin-left: 3rem;
+}
+
+.post {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+footer li {
+  margin-bottom: 0.8rem;
 }
 
 /* NAVIGATION Modal */
