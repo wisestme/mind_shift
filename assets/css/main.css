@@ -77,7 +77,7 @@ nav > a {
 }
 
 .post {
-  width: 50%;
+  width: 60%;
   margin-bottom: 1rem;
 }
 
@@ -87,7 +87,7 @@ footer li {
 
 footer form {
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   
 }
 
@@ -95,6 +95,7 @@ footer form {
 .nav_modal {
   background: green;
   height: 100vh;
+  width: 100vw;
   padding: 2em;
   position: absolute;
   top: -200vh;
@@ -103,7 +104,7 @@ footer form {
 
 .nav__close {
   position: absolute;
-  right: 1.3rem;
+  right: 2.5rem;
   top: 1.5rem;
   font-size: 1.5rem;
   cursor: pointer;
@@ -139,6 +140,15 @@ footer section:not(:last-child) {
 
 footer section > div {
   margin-bottom: 2rem;
+}
+
+#footer_body {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#footer_body > div {
+  width: 80%;
 }
 
 /* Phone Modal */
@@ -204,14 +214,41 @@ footer section > div {
 }
 
 /* Media Queries */
-@media screen and (max-width:800px) {
+@media screen and (min-width: 600px) {
+  #footer_body {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .post {
+    width: 90%;
+  }
+
+  #footer_body > div {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:700px) {
   .hide_small_screen {
     display: none;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   .hide_large_screen {
     display: none;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  #footer_body > div {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #footer_body > div {
+    width: 25%;
   }
 }
