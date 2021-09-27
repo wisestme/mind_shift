@@ -49,6 +49,12 @@ input {
 }
 
 /* Specifics */
+header .nav__logo img {
+  position: fixed;
+  left: 1rem;
+  top: 0.1rem;
+  width: 200px;
+}
 nav > a {
   position: absolute;
   left: 1.3rem;
