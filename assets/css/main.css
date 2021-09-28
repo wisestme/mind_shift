@@ -1,5 +1,64 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+
+/* CSS Variables */
+:root {
+  --header-height: 3rem;
+
+  /* Colors */
+  /* Hue changer */
+  --hue-color: 248;
+
+  /* HSL color mode */
+  /* --first-color: hsl(var(--hue-color), 69%, 41%);
+  --first-color-sub: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --text-color: hsl(var(var(--hue-color)), 8%, 45%);
+  --text-color-light: hsl(var(var(--hue-color)), 8%, 65%);
+  --title-color: hsl(var(var(--hue-color)), 8%, 15%);;
+  --input-color: hsl(var(var(--hue-color)), 70%, 96%);;
+  --body-color: hsl(var(var(--hue-color)), 60%, 99%);;
+  --container-color: #fff;
+  --dark-color: #333; */
+
+  --first-color: #2C2654;
+  --second-color: #191947;
+  --accent: #26543c;
+  --dark: #000;
+  --light: #ffff; 
+
+  /* Typography */
+  --body-font: 'Open Sans', sans-serif;
+
+  /* --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.983rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  --font-medium: 500;
+  --font-semi-bold: 600; */
+
+  /* Bottom Margins */
+  /* --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem; */
+
+  /* z-index */
+  /* --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 100; */
+}
+
 /* Reset */
 * {
   box-sizing: border-box;
@@ -8,6 +67,19 @@
 }
 
 /* Global */
+body {
+  
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  /* color: var(--text-color); */
+  color: var(--dark);
+}
+
+h1, h2, h3 {
+  color: var(--light);
+}
+
 header {
   margin: 0 0 5rem 0;
   height: 20vh;
@@ -48,9 +120,16 @@ input {
   border-radius: 0.3rem;
 }
 
+footer {
+  background: var(--second-color);
+  color: var(--light);
+}
+
+
+
 /* Specifics */
 header .nav__logo img {
-  position: fixed;
+  position: absolute;
   left: 1rem;
   top: 0.1rem;
   width: 200px;
@@ -94,9 +173,15 @@ footer li {
 footer form {
   flex-direction: column;
   width: 90%;
-  
 }
 
+footer a {
+  color: var(--light);
+}
+
+#footer_bottom {
+  
+}
 /* NAVIGATION Modal */
 .nav_modal {
   background: green;
