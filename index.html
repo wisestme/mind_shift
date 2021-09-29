@@ -13,8 +13,9 @@
 </head>
 <body>
   <header id="header" class="header">
+    <a href="#" class="nav__logo"><img src="/assets/images/mindshift_logo.png" alt=""></a>
     <nav class="nav container">
-      <a href="#" class="nav__logo"><img src="/assets/images/mindshift_logo.png" alt=""></a>
+      
 
       <div id="nav-menu" class="nav__menu nav_modal">
         <a href="#" class="nav__logo">MindShift</a>
@@ -158,20 +159,22 @@
 			</section>
 
       <section id="footer_bottom">
-        <div id="footer_logo">
-          <a href="#">
-            <img src="" alt="footer_logo">
-            <h1>MindShift</h1>
-          </a>
+        <div class="flex container">
+          <div id="footer_logo">
+            
+              <img src="/assets/images/mindshift_logo.png" alt="footer_logo">
+            
+          </div>
+          <div id="copyright">
+            <p>Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script> : MindShift. All Rights Reserved.
+            </p>
+            <!-- <p>Powered by <span class="wisest">wisestMe</span></p> -->
+          </div>
         </div>
-        <div id="copyright">
-          <p>Copyright &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script> : MindShift. All Rights Reserved.
-          </p>
-					<!-- <p>Powered by <span class="wisest">wisestMe</span></p> -->
-        </div>
+        
       </section>
     </div>
   </footer>
