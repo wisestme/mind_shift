@@ -25,7 +25,7 @@
 
   --first-color: #2C2654;
   --second-color: #191947;
-  --accent: #26543c;
+  --accent: #571a1a;
   --dark: #000;
   --light: #ffff; 
 
@@ -186,23 +186,23 @@ nav > a {
 }
 
 .showcase span {
-	color: #00bfa5;
+	color: var(--accent);
 }
 
 .slider_one {
-	background: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/news-1.jpg);
+	background: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/brain_chip.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .slider_two {
-	background-image: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/news-2.jpg);
+	background-image: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/brain_chip.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .slider_three {
-	background: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/technician.png);
+	background: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/brain_chip.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
