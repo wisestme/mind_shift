@@ -178,6 +178,7 @@ nav > a {
 	letter-spacing: 1px;
 	padding: 1em;
 	font-size: 18px;
+  text-align: center;
 }
 
 .showcase h2 {
@@ -190,13 +191,13 @@ nav > a {
 }
 
 .slider_one {
-	background: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/brain_chip.jpg);
+	background: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/bulb.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .slider_two {
-	background-image: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/brain_chip.jpg);
+	background-image: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(21,47,69, 0.8)), url(../images/bot.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -237,13 +238,19 @@ footer a {
 }
 /* NAVIGATION Modal */
 .nav_modal {
-  background: green;
+  background: var(--first-color);
+  color: var(--light);
   height: 100vh;
   width: 100vw;
   padding: 2em;
   position: absolute;
   top: -200vh;
   transition: 1s;
+  z-index: 1;
+}
+
+.nav_modal a {
+  color: var(--light);
 }
 
 .nav__close {
