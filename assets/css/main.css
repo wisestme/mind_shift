@@ -87,6 +87,7 @@ header {
 
 main {
   margin: 5rem 0;
+
 }
 
 li {
@@ -179,6 +180,7 @@ nav > a {
 	padding: 1em;
 	font-size: 18px;
   text-align: center;
+
 }
 
 .showcase h2 {
@@ -283,17 +285,16 @@ footer a {
 
 /*  */
 main {
-  padding: 1rem;
+  
 }
 
-main > div > section {
-  margin-bottom: 8rem;
+.container > section {
+
 }
 
 .intro {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 .intro > div {
@@ -302,13 +303,11 @@ main > div > section {
 
 .intro img {
   width: 100%;
-  margin: 0 auto;
-  text-align: center;
 }
 
 /* Footer */
 footer {
-  padding: 1em;
+  padding: px;
 }
 
 footer section:not(:last-child) {
@@ -443,4 +442,25 @@ footer section > div {
   #footer_body > div {
     width: 25%;
   }
+}
+
+/* TESTERS */
+.test_border {
+  border: 2px solid red;
+}
+
+/* .slider_item, .image_slider {
+  overflow-x: hidden;
+  padding: 0;
+  margin: auto;
+  border: 2px solid green;
+  width: 100%;
+} */
+
+.slick-arrow {
+  display: none;
+}
+
+header, .image_slider {
+  overflow-x: hidden;
 }
