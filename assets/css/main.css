@@ -244,11 +244,12 @@ footer a {
   color: var(--light);
   height: 100vh;
   width: 100vw;
-  padding: 2em;
-  position: absolute;
+  padding: 4em 2em;
+  
   top: -200vh;
   transition: 1s;
   z-index: 1;
+  position: fixed;
 }
 
 .nav_modal a {
@@ -258,10 +259,10 @@ footer a {
 .nav__close {
   position: absolute;
   right: 2.5rem;
-  top: 1.5rem;
+  top: 3.5rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--first-color);
+  color: var(--light);
 }
 
 .nav__show {
@@ -461,6 +462,6 @@ footer section > div {
   display: none;
 }
 
-header, .image_slider {
+ .image_slider {
   overflow-x: hidden;
 }
