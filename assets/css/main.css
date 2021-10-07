@@ -298,8 +298,11 @@ main > .container > section {
 }
 
 .intro {
-  flex-direction: column;
   background-color: var(--second-color);
+}
+
+.intro, .about {
+  flex-direction: column;
   padding: 2rem;
 }
 
@@ -321,12 +324,12 @@ main > .container > section {
   line-height: 55px;
 }
 
-.intro_summary p {
+.intro_summary p, .about p {
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
 }
 
-.intro_summary button {
+button {
   background-color: var(--accent);
   border: none;
   padding: 1rem;
@@ -336,11 +339,11 @@ main > .container > section {
   margin-bottom: 2rem;
 }
 
-.intro_summary button:hover {
+button:hover {
   opacity: 0.9;
 }
 
-.intro_image {
+.intro_image, .about_image {
   margin: 0 auto;
   width: 80%;
   justify-content: center;
@@ -348,10 +351,14 @@ main > .container > section {
   max-width: 350px;
 }
 
-.intro img {
+.intro img, .about img {
   width: 100%;
   border-radius: 1rem;
   box-shadow: 0.1rem 0.1rem #444;
+}
+
+.about {
+  color: var(--dark);
 }
 
 /* Footer */
@@ -440,8 +447,8 @@ footer section > div {
 
 /* Media Queries */
 @media screen and (min-width: 600px) {
-  .intro > div {
-    width: 90%;
+  .intro > div, .about > div {
+    width: 50%;
     margin: 0 auto
   }
   
@@ -449,14 +456,12 @@ footer section > div {
     font-size: 2.5rem;
   }
   
-  .intro_summary p {
+  .intro_summary p, .about p {
     font-size: 1.2rem;
+    
     max-width: 600px;
   }
   
-  .intro_summary button:hover {
-    opacity: 0.9;
-  }
   
   #footer_body {
     flex-direction: row;
@@ -487,6 +492,18 @@ footer section > div {
 @media screen and (min-width: 850px) {
   .intro {
     flex-direction: row;
+
+  }
+
+  .about {
+    flex-direction: row-reverse;
+  }
+
+  .about_text {
+    justify-self: flex-end;
+  }
+
+  .intro, .about {
     align-items: center;
     padding: 1rem 4rem;
   }
