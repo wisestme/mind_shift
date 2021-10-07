@@ -435,6 +435,24 @@ footer section > div {
 
 /* Media Queries */
 @media screen and (min-width: 600px) {
+  .intro > div {
+    width: 90%;
+    margin: 0 auto
+  }
+  
+  .intro_greet {
+    font-size: 2.5rem;
+  }
+  
+  .intro_summary p {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+  
+  .intro_summary button:hover {
+    opacity: 0.9;
+  }
+  
   #footer_body {
     flex-direction: row;
     justify-content: space-between;
@@ -462,6 +480,11 @@ footer section > div {
 }
 
 @media screen and (min-width: 850px) {
+  .intro {
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 4rem;
+  }
   #footer_body > div {
     width: 30%;
   }
