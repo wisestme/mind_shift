@@ -139,6 +139,10 @@ header .nav__logo img {
   top: 0.1rem;
   width: 200px;
 }
+
+header li > a {
+  color: var(--dark);
+}
 nav > a {
   position: absolute;
   left: 1.3rem;
@@ -329,6 +333,7 @@ main > .container > section {
   border-radius: 5px;
   color: var(--light);
   font-size: larger;
+  margin-bottom: 2rem;
 }
 
 .intro_summary button:hover {
