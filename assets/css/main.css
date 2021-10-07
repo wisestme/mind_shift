@@ -25,7 +25,7 @@
 
   --first-color: #2C2654;
   --second-color: #191947;
-  --accent: #571a1a;
+  --accent: rgb(0, 128, 0);
   --dark: #000;
   --light: #ffff; 
 
@@ -303,11 +303,44 @@ main > .container > section {
   margin-top: 3rem;
 }
 
+.intro_greet {
+  font-size: xx-large;
+}
+
+.intro_greet span {
+  color: var(--accent);
+}
+
+.intro_title {
+  font-size: x-large;
+  letter-spacing: 3px;
+  line-height: 55px;
+}
+
+.intro_summary p {
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.intro_summary button {
+  background-color: var(--accent);
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  color: var(--light);
+  font-size: larger;
+}
+
+.intro_summary button:hover {
+  opacity: 0.9;
+}
+
 .intro_image {
   margin: 0 auto;
   width: 80%;
   justify-content: center;
   padding: 1rem;
+  max-width: 350px;
 }
 
 .intro img {
