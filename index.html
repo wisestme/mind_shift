@@ -13,7 +13,9 @@
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/bfbc626dcc.js" crossorigin="anonymous"></script>
   <!-- stylsheet -->
+  <link rel="stylesheet" href="assets/css/menu_scroll.css">
   <link rel="stylesheet" href="assets/css/main.css">
+
   <title>MindShift | </title>
 </head>
 <body>
@@ -68,13 +70,13 @@
       <div class="hide_small_screen large_nav">
         <ul class="flex">
           <li>
-            <a href="#">
+            <a href="#" data-id="home" class="hovered">
               <i class="fas fa-home nav__icon"></i>
               Home
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" data-id="about">
               <i class="fas fa-address-card nav__icon"></i>
               About
             </a>
@@ -104,7 +106,7 @@
 
   <main>
     <div class="container">
-      <section class="hero">
+      <section id="home" class="hero section_scroll">
         
         <div class="image_slider">
           <div>
@@ -150,7 +152,7 @@
           <img src="assets/images/lolu.JPG" alt="">
         </div>
       </section>
-      <section class="about flex">
+      <section id="about" class="about section_scroll flex">
         
         <div class="about_text">
           <h2>About</h2>
@@ -291,5 +293,6 @@
 	<script src="assets/js/slider.js"></script>
   
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/menu_scroll.js"></script>
 </body>
 </html>

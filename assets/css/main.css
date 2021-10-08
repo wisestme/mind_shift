@@ -278,6 +278,10 @@ footer a {
   color: var(--first-color);
 }
 
+.large_nav {
+  position: fixed;
+}
+
 /* Show menu */
 .show-menu {
   top: 0;
