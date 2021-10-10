@@ -305,8 +305,11 @@ main > .container > section {
   background-color: var(--second-color);
 }
 
-.intro, .about, .services {
+.intro, .about {
   flex-direction: column;
+}
+
+.intro, .about, .services {
   padding: 2rem;
 }
 
