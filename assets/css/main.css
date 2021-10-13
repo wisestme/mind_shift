@@ -556,14 +556,7 @@ footer section > div {
   }
 
   .service_card {
-    width: 70%;
     margin: 2rem 0.5rem;
-    text-align: center;
-    border: 1px solid #aaa;
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 2px 2px #bbb;
-    /* height: 25vh; */
     max-width: 300px;
   }
 
