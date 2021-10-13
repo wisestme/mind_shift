@@ -237,6 +237,10 @@ nav > a {
   margin-bottom: 1rem;
 }
 
+.services_cards {
+  flex-direction: column;
+}
+
 .service_card {
   width: 70%;
   margin: 0 auto 2rem auto;
@@ -246,6 +250,7 @@ nav > a {
   padding: 1rem;
   box-shadow: 2px 2px #bbb;
   /* height: 25vh; */
+  max-width: 300px;
 }
 
 .services i {
@@ -549,6 +554,25 @@ footer section > div {
     align-items: center;
     padding: 1rem 4rem;
   }
+
+  .service_card {
+    width: 70%;
+    margin: 2rem 0.5rem;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 2px 2px #bbb;
+    /* height: 25vh; */
+    max-width: 300px;
+  }
+
+  .services_cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   #footer_body > div {
     width: 30%;
   }
