@@ -115,6 +115,10 @@ h2 {
   display: none;
 }
 
+.header_alt {
+  color: var(--accent);
+}
+
 input {
   margin-bottom: 1rem;
   padding: 0.5rem;
