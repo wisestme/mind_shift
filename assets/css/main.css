@@ -223,6 +223,36 @@ nav > a {
   margin-bottom: 1rem;
 }
 
+.services > * {
+  margin-bottom: 2rem;
+}
+
+.services_text {
+  text-align: center;
+}
+
+.services h3,
+.service_card h4,
+.services i {
+  margin-bottom: 1rem;
+}
+
+.service_card {
+  width: 70%;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 2px 2px #bbb;
+  /* height: 25vh; */
+}
+
+.services i {
+  color: var(--accent);
+  font-size: x-large;
+}
+
 footer li {
   margin-bottom: 0.8rem;
 }
