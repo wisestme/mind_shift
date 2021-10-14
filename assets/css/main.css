@@ -238,8 +238,8 @@ nav > a {
   margin-bottom: 1rem;
 }
 
-.services_cards
- {
+.services_cards,
+.video_sessions {
   flex-direction: column;
 }
 
