@@ -227,7 +227,8 @@ nav > a {
   margin-bottom: 2rem;
 }
 
-.services_text {
+.services_text,
+.talk_sessions > * {
   text-align: center;
 }
 
@@ -237,7 +238,8 @@ nav > a {
   margin-bottom: 1rem;
 }
 
-.services_cards {
+.services_cards
+ {
   flex-direction: column;
 }
 
@@ -256,6 +258,10 @@ nav > a {
 .services i {
   color: var(--accent);
   font-size: x-large;
+}
+
+.video_sessions img {
+  width: 300px;
 }
 
 footer li {
@@ -332,10 +338,6 @@ footer a {
 }
 
 /*  */
-main {
-  
-}
-
 main > .container > section {
   margin-bottom: 10rem;
 }
@@ -407,6 +409,9 @@ button:hover {
   color: var(--dark);
 }
 
+#talk_sessions {
+  color: #00BFA5;
+}
 
 /* Footer */
 footer {
