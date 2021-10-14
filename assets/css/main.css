@@ -243,9 +243,10 @@ nav > a {
   flex-direction: column;
 }
 
-.service_card {
+.service_card,
+.video_sessions img {
   width: 70%;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0.5rem auto;
   text-align: center;
   border: 1px solid #aaa;
   border-radius: 10px;
@@ -342,7 +343,8 @@ main > .container > section {
   margin-bottom: 10rem;
 }
 
-.intro {
+.intro,
+.talk_sessions {
   background-color: var(--second-color);
 }
 
