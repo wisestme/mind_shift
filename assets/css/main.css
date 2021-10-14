@@ -244,6 +244,10 @@ nav > a {
   flex-direction: column;
 }
 
+.services_cards > .service_card {
+  margin-bottom: 2.5rem;
+}
+
 .service_card,
 .video_sessions img {
   width: 70%;
