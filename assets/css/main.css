@@ -418,6 +418,10 @@ button:hover {
   color: var(--dark);
 }
 
+.talk_sessions a {
+  color: var(--light);
+}
+
 /* Footer */
 footer {
   padding: 1rem;
