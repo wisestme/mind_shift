@@ -466,14 +466,18 @@ footer section > div {
 	position: fixed;
 	bottom: 0;
 	right: -400px;
-	background: #161616;
-	border: 2px solid #00BFA5;
+	background: var(--first-color);
+	border: 2px solid var(--accent);
 	padding: 1em;
 	border-radius: 5px;
-	color: #fff;
-	fill: #fff;
+	color: var(--light);
+	fill: var(--light);
 	max-width: 400px;
 	transition: 0.5s ease;
+}
+
+.phone_modal a {
+  color: var(--light);
 }
 
 .channel {
