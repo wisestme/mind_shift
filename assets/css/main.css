@@ -573,7 +573,8 @@ footer section > div {
     max-width: 300px;
   }
 
-  .services_cards {
+  .services_cards,
+  .video_sessions {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
