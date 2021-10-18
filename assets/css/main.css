@@ -294,7 +294,7 @@ footer a {
 }
 /* NAVIGATION Modal */
 .nav_modal {
-  background: var(--first-color);
+  background: var(--second-color);
   color: var(--light);
   height: 100vh;
   width: 100vw;
