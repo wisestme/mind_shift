@@ -228,7 +228,8 @@ nav > a {
 }
 
 .services_text,
-.talk_sessions > * {
+.talk_sessions > *,
+.article_header {
   text-align: center;
 }
 
@@ -358,7 +359,8 @@ main > .container > section {
 .intro,
 .about,
 .services,
-.talk_sessions {
+.talk_sessions,
+.articles {
   padding: 2rem;
 }
 
@@ -413,7 +415,9 @@ button:hover {
   box-shadow: 0.1rem 0.1rem #444;
 }
 
-.services {
+.services,
+.articles,
+.article_header h3 {
   color: var(--dark);
 }
 
