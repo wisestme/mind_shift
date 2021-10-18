@@ -223,7 +223,8 @@ nav > a {
   margin-bottom: 1rem;
 }
 
-.services > * {
+.services > *,
+#articles .article {
   margin-bottom: 2rem;
 }
 
@@ -241,7 +242,8 @@ nav > a {
 }
 
 .services_cards,
-.video_sessions {
+.video_sessions,
+.articles {
   flex-direction: column;
 }
 
