@@ -250,7 +250,8 @@ nav > a {
 }
 
 .service_card,
-.video_sessions img {
+.video_sessions img,
+.article {
   width: 70%;
   margin: 0 auto 0.5rem auto;
   text-align: center;
