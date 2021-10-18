@@ -271,6 +271,14 @@ nav > a {
   margin-top: 2.5rem;
 }
 
+.article h4 {
+  margin-bottom: 1rem;
+}
+
+.article p {
+  margin-bottom: 1rem;
+}
+
 footer li {
   margin-bottom: 0.8rem;
 }
