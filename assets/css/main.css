@@ -593,7 +593,8 @@ footer section > div {
   }
 
   .services_cards,
-  .video_sessions {
+  .video_sessions,
+  .articles {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
