@@ -4,7 +4,12 @@
 
 @font-face {
   font-family: mainFont;
-  src: url(/assets/fonts/NEWS701B.ttf);
+  src: url(assets/fonts/NEWS701B.ttf);
+}
+
+@font-face {
+  font-family: subFont;
+  src: url(assets/fonts/news701n.ttf);
 }
 
 /* CSS Variables */
@@ -37,6 +42,7 @@
   /* Typography */
   /* --body-font: 'Open Sans', sans-serif; */
   --body-font: 'mainFont';
+  --second-font: 'subFont';
 
   /* --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -75,7 +81,7 @@
 /* Global */
 body {
   
-  font-family: var(--body-font);
+  font-family: var(--second-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   /* color: var(--text-color); */
