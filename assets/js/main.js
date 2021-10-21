@@ -22,13 +22,24 @@ if(navOpen) {
   }
 
   // Appointment Modal Control
+  // Open modal
   let appointmentButton = document.getElementById('appointment_button'),
   appointmentModal = document.getElementById('appointment');
+
   if(appointmentButton) {
     appointmentButton.addEventListener('click', () => {
       appointmentModal.style.top = 0;
     })
   }
+
+  // Close modal
+let closeAppointmentModal = document.getElementById('appointment_close');
+
+if(closeAppointmentModal) {
+  closeAppointmentModal.addEventListener('click', () => {
+    appointmentModal.style.top = '-200vh';
+  })
+}
 
   // Phone modal control
 let phoneModalIcon = document.querySelector('.phone_quicklinks');
