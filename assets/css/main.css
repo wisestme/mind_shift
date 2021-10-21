@@ -344,13 +344,19 @@ footer a {
   color: var(--light);
 }
 
-.nav__close {
+.nav__close,
+.appointment_close_modal {
   position: absolute;
   right: 2.5rem;
   top: 3.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--light);
+  fill: var(--light);
+}
+
+.appointment_close_modal {
+  top: 1rem;
 }
 
 .nav__show {
