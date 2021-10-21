@@ -327,8 +327,8 @@ footer a {
   position: relative;
   top: 2rem;
 }
-/* NAVIGATION Modal */
-.nav_modal {
+/* NAVIGATION Modal & Appointment*/
+.nav_modal, .appointment_modal {
   background: var(--second-color);
   color: var(--light);
   height: 100vh;
