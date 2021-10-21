@@ -428,7 +428,7 @@ main > .container > section {
   margin-bottom: 1.5rem;
 }
 
-button {
+button, #about a{
   background-color: var(--accent);
   border: none;
   padding: 1rem;
