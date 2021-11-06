@@ -159,7 +159,7 @@ header .nav__logo img {
 }
 
 header li > a {
-  color: var(--dark);
+  color: var(--light);
 }
 nav > a {
   position: absolute;
@@ -175,13 +175,6 @@ nav > a {
   gap: 2rem;
   width: 90%;
   margin: 50px auto;
-}
-
-.large_nav {
-  position: relative;
-  right: 2rem;
-  float: right;
-  top: 4rem;
 }
 
 .large_nav li {
@@ -369,8 +362,32 @@ footer a {
   color: var(--first-color);
 }
 
+nav.container {
+  padding-top: 40px;
+}
 .large_nav {
-  position: fixed;
+  z-index: 3;
+    padding: 0 15px;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #f5b335;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    overflow: hidden;
+}
+
+.large_nav.hide-nav {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+/* add this class using javascript */
+.nav-up {
+  top: -40px;
 }
 
 /* Show menu */
@@ -435,7 +452,8 @@ button, #about a{
   border-radius: 5px;
   color: var(--light);
   font-size: larger;
-  margin-bottom: 2rem;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
 
 button:hover {
@@ -675,4 +693,29 @@ footer section > div {
 
  .image_slider {
   overflow-x: hidden;
+}
+
+/* HIDE ON SCROLL */
+.large_nav {
+  position: fixed;
+  width: calc(100% - 30px);
+  max-width: 960px;
+  height: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--first-color);
+  transition: 0.5s;
+}
+
+.large_nav > * {
+  position: relative;
+  margin-top: 1rem;
+}
+.scroll_menu {
+  top: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.scroll_menu.hide {
+  transform: translateX(-50%) translateY(-100%);
 }
