@@ -293,6 +293,9 @@ nav > a {
 
 .article h4 {
   margin-bottom: 1rem;
+  color: var(--accent);
+  font-weight: 900;
+  font-size: larger;
 }
 
 .article_full p {
@@ -441,7 +444,7 @@ main > .container > section {
   line-height: 55px;
 }
 
-.intro_summary p, .about p, .article_full p {
+.intro_summary p, .about p, .article_full p, .article p {
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
   line-height: 1.3rem;
