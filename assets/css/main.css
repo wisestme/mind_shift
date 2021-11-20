@@ -445,10 +445,10 @@ main > .container > section {
   margin-bottom: 1.5rem;
 }
 
-button, #about a{
+button, #about a, .article a{
   background-color: var(--accent);
   border: none;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 5px;
   color: var(--light);
   font-size: larger;
