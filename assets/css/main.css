@@ -439,9 +439,10 @@ main > .container > section {
 }
 
 .intro_title {
-  font-size: x-large;
-  letter-spacing: 3px;
+  font-size: 18px;
+  letter-spacing: 2px;
   line-height: 55px;
+  font-weight: bolder;
 }
 
 .intro_summary p, .about p, .article_full p, .article p {
