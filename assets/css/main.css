@@ -615,6 +615,9 @@ footer section > div {
 
 /* Media Queries */
 @media screen and (min-width: 600px) {
+  header .nav__logo img {
+    width: 300px;
+  }
   .intro > div, .about > div {
     width: 50%;
     margin: 0 auto
