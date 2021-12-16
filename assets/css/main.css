@@ -511,6 +511,18 @@ button:hover {
   color: var(--light);
 }
 
+figcaption {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+figcaption span {
+  display: block;
+  font-weight: lighter;
+  font-size: small;
+  margin-top: 0.3rem;
+}
+
 /* Footer */
 footer {
   padding: 1rem;
