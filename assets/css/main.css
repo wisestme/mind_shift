@@ -92,6 +92,10 @@ h1, h2, h3 {
   letter-spacing: 1px;
 }
 
+h3 {
+  margin-bottom: 1rem;
+}
+
 header {
   margin: 0 0 5rem 0;
   height: 20vh;
@@ -633,9 +637,10 @@ footer section > div {
     font-size: 2.5rem;
   }
   
-  .intro_summary p, .about p {
+  .intro_summary p,
+  .about p,
+  .showcase p {
     font-size: 1.2rem;
-    
     max-width: 600px;
   }
   
