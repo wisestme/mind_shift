@@ -229,11 +229,13 @@ nav > a {
 	background-size: cover;
 }
 
-#appointment {
+#appointment,
+#soon {
   padding: 1rem;
 }
 
-#appointment .container {
+#appointment .container,
+#soon .container {
   max-width: 400px;
   margin: 0 auto;
 }
@@ -332,7 +334,9 @@ footer a {
   top: 2rem;
 }
 /* NAVIGATION Modal & Appointment*/
-.nav_modal, .appointment_modal {
+.nav_modal,
+.appointment_modal,
+.soon_modal {
   background: var(--second-color);
   color: var(--light);
   height: 100vh;
@@ -360,7 +364,8 @@ footer a {
   fill: var(--light);
 }
 
-.appointment_close_modal {
+.appointment_close_modal,
+.soon_close_modal {
   top: 1rem;
 }
 
