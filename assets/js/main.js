@@ -59,3 +59,23 @@ if(closePhoneModal) {
     phoneModal.style.right = '-400px';
   })
 }
+
+// Coming soon control
+let allComingSoon = document.querySelectorAll('.coming_soon');
+let soonModal = document.querySelector('.soon_modal');
+let soonCloseModal = document.querySelector('.soon_close_modal');
+
+if(allComingSoon) {
+  allComingSoon.forEach(comingSoon => {
+    comingSoon.addEventListener('click', () => {
+    soonModal.style.top = 0;      
+    })    
+  });
+}
+
+if(soonCloseModal) {
+  soonCloseModal.addEventListener('click', () => {
+    soonModal.style.top = '200vh';      
+  })
+}
+
