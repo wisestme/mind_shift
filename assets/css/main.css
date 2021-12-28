@@ -81,7 +81,7 @@
 /* Global */
 body {
   
-  font-family: var(--second-font);
+  font-family: roboto;
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   /* color: var(--text-color); */
@@ -103,7 +103,6 @@ header {
 
 main {
   margin: 5rem 0;
-
 }
 
 li {
@@ -164,6 +163,9 @@ header .nav__logo img {
 
 header li > a {
   color: var(--light);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 16px;
 }
 nav > a {
   position: absolute;
@@ -272,6 +274,7 @@ nav > a {
 
 .services_cards > .service_card {
   margin-bottom: 2.5rem;
+  letter-spacing: 1px;
 }
 
 .service_card,
@@ -312,6 +315,7 @@ nav > a {
 
 footer li {
   margin-bottom: 0.8rem;
+  font-weight: bolder;
 }
 
 footer form {
@@ -373,6 +377,11 @@ footer a {
 .phone_close_modal {
   top: 0.5rem;
   right: 1rem;
+}
+
+.soon_modal h2 {
+  margin-top: 4rem;
+  text-align: center;
 }
 
 .nav__show {
@@ -649,6 +658,10 @@ footer section > div {
     font-size: 1.2rem;
     max-width: 600px;
   }
+
+  .services_text > p {
+    font-size: 1.2rem;
+  }
   
   .article_full p {
     font-size: larger;
@@ -800,4 +813,9 @@ footer section > div {
 }
 .scroll_menu.hide {
   transform: translateX(-50%) translateY(-100%);
+}
+
+.wisest {
+  color: var(--accent);
+  font-weight: bolder;
 }
