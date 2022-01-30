@@ -280,7 +280,8 @@ nav > a {
 .service_card,
 .video_sessions img,
 .article,
-.article_full {
+.article_full,
+.event_card {
   width: 70%;
   margin: 0 auto 0.5rem auto;
   text-align: center;
@@ -302,7 +303,8 @@ nav > a {
   min-width: 350px;
 }
 
-.article h4 {
+.article h4,
+.events h3 {
   margin-bottom: 1rem;
   color: var(--accent);
   font-weight: 900;
@@ -449,7 +451,8 @@ main > .container > section {
 .about,
 .services,
 .talk_sessions,
-.articles {
+.articles,
+.events {
   padding: 2rem;
 }
 
@@ -472,7 +475,8 @@ main > .container > section {
   font-weight: bolder;
 }
 
-.intro_summary p, .about p, .article_full p, .article p {
+.intro_summary p, .about p, .article_full p, .article p,
+.events p {
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
   line-height: 1.3rem;
@@ -530,7 +534,8 @@ button:hover {
 
 .services,
 .articles,
-.article_header h3 {
+.article_header h3,
+.events {
   color: var(--dark);
 }
 
@@ -548,6 +553,14 @@ figcaption span {
   font-weight: lighter;
   font-size: small;
   margin-top: 0.3rem;
+}
+
+.events h2 {
+  text-align: center;
+}
+
+.events img {
+  width: 100%;
 }
 
 /* Footer */
@@ -764,7 +777,8 @@ footer section > div {
   .service_card,
   .video_sessions img,
   .article,
-  .article_full {
+  .article_full,
+  .event_card {
     width: 90%;
     max-width: 400px;
   }
