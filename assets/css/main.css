@@ -488,6 +488,10 @@ main > .container > section {
   text-align: start;
 }
 
+.service_card img {
+  width: 100px;
+}
+
 .article_full {
   max-width: 800px;
   width: 90%;
