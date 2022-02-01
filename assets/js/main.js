@@ -1,7 +1,8 @@
 // MENU SHOW/HIDE Y HIDDEN
 const navMenu = document.getElementById('nav-menu'),
   navOpen = document.getElementById('nav-show'),
-  navClose = document.getElementById('nav-close');
+  navClose = document.getElementById('nav-close'),
+  allMenuModalClose = document.querySelectorAll('.menu_modal_close')
 
   // MENU SHOW
   // Validate if constant exists
@@ -19,6 +20,17 @@ if(navOpen) {
       navMenu.classList.remove('show-menu');
       navOpen.classList.remove('hide-icon');
     })
+  }
+
+  // Validate if constant exists
+  if(allMenuModalClose) {
+    allMenuModalClose.forEach(menuModalClose => {
+      menuModalClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu');
+        navOpen.classList.remove('hide-icon');
+      })
+    });
+    
   }
 
   // Appointment Modal Control
