@@ -658,3 +658,20 @@ footer section > div {
 	width: 25x;
 	height: 25px;
 }
+
+
+/* Event page */
+.event {
+  color: var(--dark);
+  padding: 1rem;
+}
+
+.image {
+  width: 98%;
+  margin: auto;
+}
+
+.image img {
+  width: 100%;
+}
+
