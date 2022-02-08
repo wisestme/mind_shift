@@ -683,4 +683,8 @@ footer section > div {
   margin: 0.5rem 0;
 }
 
-
+.event_content p {
+  margin: 1rem 0;
+  letter-spacing: 1px;
+  line-height: 1.3rem;
+}
