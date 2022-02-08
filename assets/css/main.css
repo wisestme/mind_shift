@@ -688,3 +688,7 @@ footer section > div {
   letter-spacing: 1px;
   line-height: 1.3rem;
 }
+
+.event_container .event_date > p {
+  float: right;
+}
