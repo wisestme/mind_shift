@@ -675,3 +675,12 @@ footer section > div {
   width: 100%;
 }
 
+.event_container figcaption {
+  font-weight: lighter;
+  font-size: small;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin: 0.5rem 0;
+}
+
+
