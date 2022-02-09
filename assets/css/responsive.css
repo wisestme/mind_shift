@@ -80,7 +80,6 @@
 @media screen and (min-width: 850px) {
   .intro {
     flex-direction: row;
-
   }
 
   .about {
@@ -155,6 +154,13 @@
   .event_card {
     width: 90%;
     max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .event > .container {
+    max-width: 950Px;
+    margin: 0 auto;
   }
 }
 
