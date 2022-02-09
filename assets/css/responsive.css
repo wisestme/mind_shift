@@ -123,8 +123,8 @@
     align-self: center;
   }
 
-  .event_card > button {
-    margin-top: 20px;
+  .event_card button {
+    margin-top: 25px;
   }
 
   #footer_body > div {
