@@ -90,4 +90,3 @@ if(soonCloseModal) {
     soonModal.style.top = '200vh';      
   })
 }
-
