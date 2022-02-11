@@ -90,3 +90,13 @@ if(soonCloseModal) {
     soonModal.style.top = '200vh';      
   })
 }
+
+
+// flickity
+var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  contain: true,
+  autoPlay: true
+});
