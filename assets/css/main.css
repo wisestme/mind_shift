@@ -713,3 +713,7 @@ footer section > div {
 .carousel-cell img {
   width: 100%;
 }
+
+.flickity-button-icon {
+  color: var(--accent);
+}
