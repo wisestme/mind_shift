@@ -171,6 +171,36 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .carousel-cell {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .carousel-cell {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-cell {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-cell {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-cell {
+    width: 70%;
+  }
+}
+
 /* TESTERS */
 .test_border {
   border: 2px solid red;
