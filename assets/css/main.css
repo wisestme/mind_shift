@@ -257,7 +257,8 @@ nav > a {
 
 .services_text,
 .talk_sessions > *,
-.article_header {
+.article_header,
+.gallery_slider {
   text-align: center;
 }
 
@@ -542,7 +543,8 @@ button:hover {
 .services,
 .articles,
 .article_header h3,
-.events {
+.events,
+.gallery_slider > h3 {
   color: var(--dark);
 }
 
