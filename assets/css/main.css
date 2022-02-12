@@ -696,7 +696,7 @@ footer section > div {
 /* Gallery */
 /* flickity */
 .carousel-cell {
-  width: 28%;
+  width: 30%;
   height: 200px;
   margin-right: 10px;
   background: #8C8;
@@ -706,4 +706,8 @@ footer section > div {
 
 .carousel-cell.is-selected {
   background: #ED2;
+}
+
+.carousel-cell img {
+  width: 100%;
 }

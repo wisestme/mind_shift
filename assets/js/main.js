@@ -100,3 +100,10 @@ var flkty = new Flickity( elem, {
   contain: true,
   autoPlay: true
 });
+
+setTimeout(setHeight, 2000);
+function setHeight() {
+  let flickityViewport = document.querySelector('.flickity-viewport')
+
+flickityViewport.style.height = '300px';
+}
