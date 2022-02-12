@@ -105,5 +105,5 @@ setTimeout(setHeight, 2000);
 function setHeight() {
   let flickityViewport = document.querySelector('.flickity-viewport')
 
-flickityViewport.style.height = '300px';
+flickityViewport.style.height = '280px';
 }

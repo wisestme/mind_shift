@@ -697,11 +697,12 @@ footer section > div {
 /* flickity */
 .carousel-cell {
   width: 30%;
-  height: 200px;
+  height: 300px;
   margin-right: 10px;
   background: #8C8;
   border-radius: 5px;
   counter-increment: carousel-cell;
+  border: 2px solid red;
 }
 
 .carousel-cell.is-selected {
