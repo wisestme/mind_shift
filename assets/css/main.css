@@ -157,6 +157,14 @@ header nav {
   position: relative;
   top: 4rem;
 }
+
+.menu_bar {
+  width: 30px;
+  height: 4px;
+  background-color: var(--accent);
+  margin-top: 5px;
+  
+}
 header .nav__logo img {
   position: absolute;
   left: 1rem;
