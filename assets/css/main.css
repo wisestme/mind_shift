@@ -158,13 +158,29 @@ header nav {
   top: 4rem;
 }
 
+.menu_bars {
+  z-index: 9;
+}
+
 .menu_bar {
   width: 30px;
   height: 4px;
   background-color: var(--accent);
   margin-top: 5px;
-  
 }
+
+.change .bar1 {
+  transform: rotate(45deg) translate(-7px, 8px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(-45deg) translate(6px, -20px);
+}
+
 header .nav__logo img {
   position: absolute;
   left: 1rem;
@@ -362,7 +378,7 @@ footer a {
   padding: 4em 2em;
   top: -200vh;
   transition: 1s;
-  z-index: 1;
+  
   position: fixed;
 }
 
@@ -399,9 +415,9 @@ footer a {
 }
 
 .nav__show {
-  position: absolute;
+  position: fixed;
   right: 1.3rem;
-  top: -0.2rem;
+  top: 2rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);

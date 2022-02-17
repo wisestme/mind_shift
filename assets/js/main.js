@@ -1,26 +1,28 @@
 // MENU SHOW/HIDE Y HIDDEN
 const navMenu = document.getElementById('nav-menu'),
   navOpen = document.getElementById('nav-show'),
-  navClose = document.getElementById('nav-close'),
-  allMenuModalClose = document.querySelectorAll('.menu_modal_close')
+  // navClose = document.getElementById('nav-close'),
+  allMenuModalClose = document.querySelectorAll('.menu_modal_close'),
+  menuBars = document.querySelector('.menu_bars');
 
   // MENU SHOW
   // Validate if constant exists
 if(navOpen) {
   navOpen.addEventListener('click', () => {
-    navMenu.classList.add('show-menu');
-    navOpen.classList.add('hide-icon');
+    navMenu.classList.toggle('show-menu');
+    // navOpen.classList.add('hide-icon');
+    menuBars.classList.toggle('change');
   })
 }
 
 // MENU HIDE
   // Validate if constant exists
-  if(navClose) {
-    navClose.addEventListener('click', () => {
-      navMenu.classList.remove('show-menu');
-      navOpen.classList.remove('hide-icon');
-    })
-  }
+  // if(navClose) {
+  //   navClose.addEventListener('click', () => {
+  //     navMenu.classList.remove('show-menu');
+  //     navOpen.classList.remove('hide-icon');
+  //   })
+  // }
 
   // Validate if constant exists
   if(allMenuModalClose) {
