@@ -204,10 +204,11 @@ nav > a {
 }
 
 .nav__list {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  flex-direction: column;
+  gap: 3rem;
   width: 90%;
   margin: 50px auto;
+  align-items: center;
 }
 
 .large_nav li {
