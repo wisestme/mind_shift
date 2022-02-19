@@ -14,20 +14,24 @@ function navAnimation(direction1, direction2) {
   })
 }
 
+// toggle nav
+function toggleNav() {
+  if(navMenu.classList.contains('menu_slide_left')) {
+  navMenu.classList.replace('menu_slide_left', 'menu_slide_right');
+  // animate-in nav items
+  navAnimation('out', 'in')
+  } else {
+      navMenu.classList.replace('menu_slide_right', 'menu_slide_left');
+      // animate-out nav items
+      navAnimation('in', 'out')
+  }
+  // navOpen.classList.add('hide-icon');
+  menuBars.classList.toggle('change');
+}
+
+
 if(navOpen) {
-  navOpen.addEventListener('click', () => {
-    if(navMenu.classList.contains('menu_slide_left')) {
-    navMenu.classList.replace('menu_slide_left', 'menu_slide_right');
-    // animate-in nav items
-    navAnimation('out', 'in')
-    } else {
-        navMenu.classList.replace('menu_slide_right', 'menu_slide_left');
-        // animate-out nav items
-        navAnimation('in', 'out')
-    }
-    // navOpen.classList.add('hide-icon');
-    menuBars.classList.toggle('change');
-  })
+  navOpen.addEventListener('click', toggleNav)
 }
 
   // Validate if constant exists
@@ -40,8 +44,11 @@ if(navOpen) {
     }); 
   }
 
-  // Animate nav items
+  // close nav menu on item click
   const navItems = document.querySelectorAll('.nav__item')
+  navItems.forEach(navItem => {
+    navItem.addEventListener('click', toggleNav);
+  })
 
   // Appointment Modal Control
   // Open modal
