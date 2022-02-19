@@ -530,6 +530,68 @@ nav.container {
   transition: all 0.8s ease-in-out;
 }
 
+/* Slide in animation with delay for each nav item */
+.slide_in_1 {
+  animation: slide_in 0.2s linear 0.2s  both;
+}
+
+.slide_in_2 {
+  animation: slide_in 0.4s linear 0.4s  both;
+}
+
+.slide_in_3 {
+  animation: slide_in 0.4s linear 0.6s  both;
+}
+
+.slide_in_4 {
+  animation: slide_in 0.4s linear 0.8s  both;
+}
+
+.slide_in_5 {
+  animation: slide_in 0.4s linear 1s  both;
+}
+
+@keyframes slide_in {
+  from {
+      transform: translateX(-100%);
+  }
+
+  to {
+      transform: translateX(0);
+  }
+}
+
+/* Slide out animation with delay for each nav item */
+.slide_out_1 {
+  animation: slide_out 0.3s linear 0.5s  both;
+}
+
+.slide_out_2 {
+  animation: slide_out 0.3s linear 0.4s  both;
+}
+
+.slide_out_3 {
+  animation: slide_out 0.3s linear 0.3s  both;
+}
+
+.slide_out_4 {
+  animation: slide_out 0.3s linear 0.2s  both;
+}
+
+.slide_out_5 {
+  animation: slide_out 0.3s linear 0.1s  both;
+}
+
+@keyframes slide_out {
+  from {
+      transform: translateX(0);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
+}
+
 /* .show-menu {
   position: fixed;
   left: 0;

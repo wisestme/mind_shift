@@ -226,7 +226,7 @@
 .large_nav {
   position: fixed;
   width: calc(100% - 30px);
-  max-width: 960px;
+  max-width: 760px;
   height: 55px;
   left: 50%;
   transform: translateX(-50%);

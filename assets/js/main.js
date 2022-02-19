@@ -7,26 +7,28 @@ const navMenu = document.getElementById('nav-menu'),
 
   // MENU SHOW
   // Validate if constant exists
+  // Control navigation animation
+function navAnimation(direction1, direction2) {
+  navItems.forEach((nav, i) => {
+      nav.classList.replace(`slide_${direction1}_${i + 1}`, `slide_${direction2}_${i + 1}`);
+  })
+}
+
 if(navOpen) {
   navOpen.addEventListener('click', () => {
     if(navMenu.classList.contains('menu_slide_left')) {
     navMenu.classList.replace('menu_slide_left', 'menu_slide_right');
+    // animate-in nav items
+    navAnimation('out', 'in')
     } else {
         navMenu.classList.replace('menu_slide_right', 'menu_slide_left');
+        // animate-out nav items
+        navAnimation('in', 'out')
     }
     // navOpen.classList.add('hide-icon');
     menuBars.classList.toggle('change');
   })
 }
-
-// MENU HIDE
-  // Validate if constant exists
-  // if(navClose) {
-  //   navClose.addEventListener('click', () => {
-  //     navMenu.classList.remove('show-menu');
-  //     navOpen.classList.remove('hide-icon');
-  //   })
-  // }
 
   // Validate if constant exists
   if(allMenuModalClose) {
@@ -35,9 +37,11 @@ if(navOpen) {
         navMenu.classList.remove('show-menu');
         navOpen.classList.remove('hide-icon');
       })
-    });
-    
+    }); 
   }
+
+  // Animate nav items
+  const navItems = document.querySelectorAll('.nav__item')
 
   // Appointment Modal Control
   // Open modal
