@@ -482,9 +482,9 @@ footer a {
 }
 
 .nav__show {
-  position: fixed;
+  position: absolute;
   right: 1.3rem;
-  top: 2rem;
+  top: -2rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
