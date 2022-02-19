@@ -1,76 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- slick slider -->
-  <link rel="stylesheet" href="slick/slick.css">
-	 	<!-- Add the new slick-theme.css if you want the default styling -->
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/bfbc626dcc.js" crossorigin="anonymous"></script>
-  <!-- stylsheet -->
-  <link rel="stylesheet" href="assets/css/menu_scroll.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-
-  <title>MindShift | </title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- slick slider -->
+    <link rel="stylesheet" href="slick/slick.css">
+       <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/bfbc626dcc.js" crossorigin="anonymous"></script>
+  
+    <!-- stylsheet -->
+    <!-- flickity to control carousel -->
+    <link rel="stylesheet" href="assets/css/flickity.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  
+    <title>MindShift | </title>
+  </head>
 <body>
   <header id="header" class="header">
     <a href="index.html" class="nav__logo"><img src="assets/images/mindshift_logo.png" alt=""></a>
     <nav class="nav container">
       
 
-      <div id="nav-menu" class="nav__menu nav_modal">
-        <a href="#" class="nav__logo"><img src="assets/images/mindshift_logo.png" alt=""></a>
-        <ul class="nav__list grid">
-          <li class="nav__item">
+      <div id="nav-menu" class="nav__menu nav_modal menu_slide_left">
+        <!-- <a href="#" class="nav__logo"><img src="assets/images/mindshift_logo.png" alt=""></a> -->
+        <ul class="nav__list flex">
+          <li class="nav__item slide_out_1 menu_modal_close">
             <a href="#home" class="nav__link">
               <i class="fas fa-home nav__icon"></i>
               Home
             </a>
           </li>
-          <li class="nav__item">
+          <li class="nav__item slide_out_2 menu_modal_close">
             <a href="about.html" class="nav__link">
               <i class="fas fa-address-card nav__icon"></i>
               About
             </a>
           </li>
-          <li class="nav__item">
-            <a href="#skills" class="nav__link">
+          <li class="nav__item slide_out_3 menu_modal_close">
+            <a href="#events" class="nav__link">
               <i class="fas fa-calendar-alt"></i>
               Events & Seminars
             </a>
           </li>
-          <li class="nav__item">
+          <li class="nav__item slide_out_4 menu_modal_close">
             <a href="#services" class="nav__link">
               <i class="fab fa-blogger"></i>
               Blog
             </a>
           </li>
-          <li class="nav__item">
+          <li class="nav__item slide_out_5 menu_modal_close">
             <a href="#portfolio" class="nav__link">
               <i class="far fa-comments"></i>
               Contact
             </a>
           </li>
         </ul>
-        <i class="fas fa-times nav__close" id="nav-close"></i>
       </div>
 
       <div class="nav__btns hide_large_screen">
         <div class="nav__show" id="nav-show">
-          <i class="fas fa-bars"></i>
+          <div class="menu_bars">
+            <div class="bar1 menu_bar"></div>
+            <div class="bar2 menu_bar"></div>
+            <div class="bar3 menu_bar"></div>
+          </div>
         </div>
       </div>
 
       <div class="hide_small_screen large_nav scroll_menu">
         <ul class="flex">
           <li>
-            <a href="index.html" data-id="home" class="hovered">
+            <a href="#" data-id="home" class="hovered">
               <i class="fas fa-home nav__icon"></i>
               Home
             </a>
@@ -82,18 +88,18 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#events">
               <i class="fas fa-calendar-alt"></i>
               Events & Seminars
             </a>
           </li>
-          <li>
+          <li class="coming_soon">
             <a href="#">
               <i class="fab fa-blogger"></i>
               Blog
             </a>
           </li>
-          <li>
+          <li class="coming_soon">
             <a href="#">
               <i class="far fa-comments"></i>
               Contact

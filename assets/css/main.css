@@ -653,7 +653,7 @@ main > .container > section {
 
 #about,
 #article {
-  background:blue;
+  background:var(--adjacent3);
   text-align: start;
 }
 
