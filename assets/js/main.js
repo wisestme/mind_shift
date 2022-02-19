@@ -9,7 +9,11 @@ const navMenu = document.getElementById('nav-menu'),
   // Validate if constant exists
 if(navOpen) {
   navOpen.addEventListener('click', () => {
-    navMenu.classList.toggle('show-menu');
+    if(navMenu.classList.contains('menu_slide_left')) {
+    navMenu.classList.replace('menu_slide_left', 'menu_slide_right');
+    } else {
+        navMenu.classList.replace('menu_slide_right', 'menu_slide_left');
+    }
     // navOpen.classList.add('hide-icon');
     menuBars.classList.toggle('change');
   })
