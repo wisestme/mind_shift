@@ -755,21 +755,22 @@ button:active,
   grid-template-columns: 1fr 1fr 1fr;
   grid-column: 1/4;
   grid-row: 1/3;
+  align-items: stretch;
 }
 
 .book_card table {
   text-align: left;
 }
+
 .book_info figure {
   grid-column: 1/2;
 }
 
 .book_info table {
   grid-column: 2/4;
-  align-self: stretch;
-  justify-self: stretch;
   max-width: 400px;
 }
+
 
 .book_card > button {
   grid-column: 1/3;
