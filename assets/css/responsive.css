@@ -163,11 +163,30 @@
     max-width: 950Px;
     margin: 0 auto;
   }
+
+  .book_info {
+    grid-row: 1/4;
+    grid-column: 1/2;
+  }
+
+  .book_card p {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    align-self: center;
+  }
+  .book_card button {
+    grid-row: 4/5;
+  }
 }
 
 @media screen and (min-width: 1150px) {
   #footer_body > div {
     width: 25%;
+  }
+
+  .book_card {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }
 
