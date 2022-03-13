@@ -12,7 +12,7 @@ if(isset($_POST['SubmitAppointment']))
 	$phone=$_POST['phone'];
 	$message=$_POST['message'];
 
-	$to = "wyhzest@gmail.com";
+	$to = "lolu@mindshifttraining.com.ng";
 	$subject = "MindShift - Appointment";
 	$message = " First Name: " . $firstName ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
