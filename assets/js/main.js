@@ -70,6 +70,27 @@ if(closeAppointmentModal) {
   })
 }
 
+// Account Details Modal
+// Open Modal
+let buyBookTwo = document.getElementById('book_two'),
+accountModal = document.getElementById('account');
+
+if(buyBookTwo) {
+  buyBookTwo.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    accountModal.style.top = '0';
+  })
+}
+
+// Close Modal
+let closeAccountModal = document.querySelector('.close_account_modal');
+
+if(closeAccountModal) {
+  closeAccountModal.addEventListener('click', () => {
+    accountModal.style.top = '-200vh';
+  })
+}
+
   // Phone modal control
 let phoneModalIcon = document.querySelector('.phone_quicklinks');
 let phoneModal = document.querySelector('.phone_modal');
