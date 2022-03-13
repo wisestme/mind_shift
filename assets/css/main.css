@@ -776,7 +776,7 @@ button:active,
 }
 
 
-.book_card > button {
+.book_card > a {
   grid-column: 1/3;
   grid-row: 3/4;
   width: 30%;
