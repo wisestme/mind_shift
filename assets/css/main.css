@@ -684,7 +684,7 @@ main > .container > section {
 }
 
 
-button, #about a, .article a{
+button, .button, #about a, .article a{
   background-color: var(--accent);
   border: none;
   padding: 0.5rem;
