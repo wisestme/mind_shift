@@ -14,7 +14,7 @@ if(isset($_POST['SubmitAppointment']))
 
 	$to = "lolu@mindshifttraining.com.ng";
 	$subject = "MindShift - Appointment";
-	$message = " First Name: " . $firstName ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
+	$message = " First Name: " . $firstName . "\r\n Last Name: " . $lastName . "\r\n Company: " . $company . "\r\n Phone: " . $phone . "\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
 	$from = "mindshifttraining.com.ng";
 	$headers = "From:" . $from . "\r\n";
