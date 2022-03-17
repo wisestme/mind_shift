@@ -224,6 +224,10 @@
   .carousel-cell {
     width: 70%;
   }
+
+  .account_modal table {
+    width: 98%;
+  }
 }
 
 /* TESTERS */
