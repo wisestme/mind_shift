@@ -751,7 +751,7 @@ button:active,
 
 .book_card {
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto 1fr;
   width: 90%;
   margin: 0 auto 3rem auto;
   border: 2px solid #aaa;
